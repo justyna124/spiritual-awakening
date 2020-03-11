@@ -27,14 +27,12 @@
                 <a class="nav-link" href="#home">Home </a>
             </li>
             <li class="nav-item li">
-                <a class="nav-link" href="#author">O autorze</a>
+                <a class="nav-link" href="#author">O stronie</a>
             </li>
             <li class="nav-item li">
                 <a class="nav-link" href="#translate">Tłumaczenia</a>
             </li>
-
         </ul>
-
     </div>
 </nav>
 <header id="home" class="pt-5">
@@ -44,39 +42,50 @@
             <h4 class="display-5  ">Kto zapłaci cenę i porzuci swój grzech?</h4>
         </div>
     </div>
-    <div class="container-fluid pl-0 pr-0 ">
-        <div class="row mr-0 ml-0">
+    <div class="container pl-0 pr-0 ">
+        <div class="row mr-0 ml-0 mt-5">
             <div class="col-8 offset-2">
                 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+                    </ol>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <p class="word pt-5 pb-5">„Lecz wasze winy są tym, co was odłączyło od waszego Boga, a wasze
-                                grzechy
-                                zasłoniły
-                                przed
-                                wami jego
-                                oblicze, tak że nie słyszy”
-                                <small>(Księga Izajasza 59.2)</small>
-                            </p>
+                            <img src="images/img0.jpg" class=" img-fluid d-block w-80" alt="...">
+                        </div>
+                        <div class="carousel-item ">
+                            <img src="images/img1.jpg" class=" img-fluid d-block w-80" alt="...">
                         </div>
                         <div class="carousel-item">
-                            <p class="word  pb-5 pt-5">„Szukałem wśród nich męża, który by potrafił wznieść mur i przed
-                                moim
-                                obliczem stanąć w
-                                wyłomie,
-                                wstawiając się za krajem, abym go nie zniszczył, lecz nie znalazem.”
-                                <small>(Ezechiela 22.30)</small>
-                            </p>
+                            <img src="images/img2.jpg" class=" img-fluid d-block w-80" alt="...">
                         </div>
                         <div class="carousel-item">
-                            <p class="word pb-5 pt-5">„I jeśli upokorzy się mój lud, nad którym zostało wezwane moje
-                                Imię,
-                                i będą błagać, i będą szukać mego oblicza, a odwrócą się od swoich złych dróg, Ja z
-                                nieba wysłucham i przebaczę im grzechy, a kraj ich ocalę.”
-                                <small>(2 Krn 7.14)</small>
-                            </p>
+                            <img src="images/img3.jpg" class=" img-fluid d-block w-80" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/img4.jpg" class=" img-fluid d-block w-80" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/img5.jpg" class="img-fluid d-block w-80" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/img6.jpg" class="img-fluid d-block w-80" alt="...">
                         </div>
                     </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
                 </div>
             </div>
         </div>
@@ -84,10 +93,11 @@
 </header>
 <main class="container-fluid">
 
-    <article class="row pt-5" id="author" >
-        <h6 class="text-uppercase text-center text-muter w-100 bg-gradient color pt-2 pb-2 " >O autorze</h6>
+    <article class="row pt-5" id="author">
+        <h6 class="text-uppercase text-center text-muter w-100 bg-gradient color pt-2 pb-2 ">O stronie</h6>
         <div class="col-10 offset-1">
-            <p class="text-justify pt-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris maximus non magna quis cursus. Nulla at
+            <p class="text-justify pt-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris maximus non
+                magna quis cursus. Nulla at
                 justo non leo euismod egestas. Aliquam aliquet eget neque non varius. Phasellus at lacinia dui. Vivamus
                 pulvinar quis nisi eu sollicitudin. Ut laoreet urna sit amet leo placerat, a ultrices felis auctor. Nunc
                 sit amet vulputate enim, id consectetur lectus. Vivamus elementum nisl at sapien commodo imperdiet.
@@ -102,88 +112,125 @@
     <article class="row pt-5 pb-5" id="translate">
         <h6 class="text-uppercase text-center text-muter w-100 bg-gradient color pt-2 pb-2">tłumaczenia</h6>
 
-        <div class="col-10 offset-1">
-<div class="buttons mt-5 mb-5" id="buttons">
+        <div class="col-md-10 offset-md-1 ">
+            <div class="buttons mt-5 mb-5" id="buttons">
 
-    <button class="button filter-button" data-filter="all" id="all">Wszystko</button>
-    <button class="button filter-button" data-filter="pray" id="pray">Modlitwa</button>
-    <button class="button filter-button" data-filter="sin" id="sin">Grzech</button>
+                <button class="button filter-button col-10 offset-1 offset-sm-2 offset-lg-2 col-sm-3  col-lg-2 mb-2"
+                        data-filter="all" id="all">Wszystko
+                </button>
+                <button class="button filter-button col-10 offset-1 offset-sm-2 offset-lg-1 col-sm-3  col-lg-2 mb-2" data-filter="power"
+                        id="power">Moc Boża
+                </button>
+                <button class="button filter-button col-10 offset-1 offset-sm-2 offset-lg-1 col-sm-3  col-lg-2 mb-2" data-filter="conditions"
+                        id="conditions">Warunki przebudzenia
+                </button>
+                <button class="button filter-button col-10 offset-1 offset-sm-2 offset-lg-2 col-sm-3  col-lg-2 mb-2"
+                        data-filter="community" id="community">Osobista społeczność z Bogiem
+                </button>
+                <button class="button filter-button col-10 offset-1 offset-sm-2 offset-lg-1 col-sm-3  col-lg-2 mb-2" data-filter="prayer"
+                        id="prayer">Modlitwa wstawiennicza
+                </button>
+                <button class="button filter-button col-10 offset-1 offset-sm-2 offset-lg-1 col-sm-3 col-lg-2 mb-2" data-filter="testimony"
+                        id="testimony">Świadectwa z przebudzeń
+                </button>
 
-</div>
+            </div>
             <div class="card-columns ">
-                <div class="card filter pray">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title that wraps to a new line</h5>
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
-                            additional content. This content is a little bit longer.</p>
-                        <a href="Przebudzenie-na-Hebrydach-Duncan-Campbell.pdf" target="_blank"><i class="fas fa-file-pdf icon text-dark"></i></a>
-                    </div>
-                </div>
-                <div class="card p-3  filter sin">
+                <div class="card p-3  filter community">
                     <blockquote class="blockquote mb-0 card-body">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                        <p>Spotkanie z Jezusem jest sądem nad naszą pobożnością</p>
                         <footer class="blockquote-footer">
                             <small class="text-muted">
-                                Someone famous in <cite title="Source Title">Source Title</cite>
+                                WERNER DE BOOR
                             </small>
                         </footer>
                     </blockquote>
-                    <a href="Przebudzenie-na-Hebrydach-Duncan-Campbell.pdf" target="_blank"><i class="fas fa-file-pdf icon text-dark"></i></a>
+                    <a href="translations/DE%20BOOR%20WERNER%20Spotkanie%20z%20Jezusem%20jest%20sądem%20nad%20naszą%20pobożnością.pdf"
+                       target="_blank"><i class="fas fa-file-pdf icon text-dark"></i></a>
                 </div>
-                <div class="card  filter pray">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This card has supporting text below as a natural lead-in to additional
-                            content.</p>
-                        <p class="card-text">
-                            <small class="text-muted">Last updated 3 mins ago</small>
-                        </p>
-                        <a href="Przebudzenie-na-Hebrydach-Duncan-Campbell.pdf" target="_blank"><i class="fas fa-file-pdf icon text-dark"></i></a>
-                    </div>
-                </div>
-                <div class="card bg-primary text-white text-center p-3 filter sin">
-                    <blockquote class="blockquote mb-0">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat.</p>
-                        <footer class="blockquote-footer text-white">
-                            <small>
-                                Someone famous in <cite title="Source Title">Source Title</cite>
-                            </small>
-                        </footer>
-
-                    </blockquote>
-                    <a href="Przebudzenie-na-Hebrydach-Duncan-Campbell.pdf" target="_blank"><i class="fas fa-file-pdf icon text-white pt-2"></i></a>
-                </div>
-                <div class="card text-center filter pray">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This card has a regular title and short paragraphy of text below it.</p>
-                        <p class="card-text">
-                            <small class="text-muted">Last updated 3 mins ago</small>
-                        </p>
-                        <a href="Przebudzenie-na-Hebrydach-Duncan-Campbell.pdf" target="_blank"><i class="fas fa-file-pdf icon text-dark"></i></a>
-                    </div>
-                </div>
-                <div class="card p-3 text-right filter sin">
-                    <blockquote class="blockquote mb-0">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                <div class="card p-3  filter prayer">
+                    <blockquote class="blockquote mb-0 card-body">
+                        <p>Jak modlić się za ludzi</p>
                         <footer class="blockquote-footer">
                             <small class="text-muted">
-                                Someone famous in <cite title="Source Title">Source Title</cite>
+                                Wesley L. Duewel
                             </small>
                         </footer>
                     </blockquote>
-                    <a href="Przebudzenie-na-Hebrydach-Duncan-Campbell.pdf" target="_blank"><i class="fas fa-file-pdf icon text-dark pt-2"></i></a>
+                    <a href="translations/DUEWEL%20WESLEY%20Jak%20modlic%20sie%20za%20ludzi.pdf" target="_blank"><i
+                            class="fas fa-file-pdf icon text-dark"></i></a>
                 </div>
-                <div class="card filter pray">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is another card with title and supporting text below. This card has
-                            some additional content to make it slightly taller overall.</p>
-                        <p class="card-text">
-                            <small class="text-muted">Last updated 3 mins ago</small>
-                        </p>
-                        <a href="Przebudzenie-na-Hebrydach-Duncan-Campbell.pdf" target="_blank"><i class="fas fa-file-pdf icon text-dark"></i></a>
-                    </div>
+                <div class="card p-3  filter power">
+                    <blockquote class="blockquote mb-0 card-body">
+                        <p>Uwolnienie od szatańskich mocy</p>
+                        <footer class="blockquote-footer">
+                            <small class="text-muted">
+                                DETMAR SCHEUNEMANN
+                            </small>
+                        </footer>
+                    </blockquote>
+                    <a href="translations/SCHEUNEMANN%20D.%20Uwolnienie%20od%20szatańskich%20mocy.pdf"
+                       target="_blank"><i class="fas fa-file-pdf icon text-dark"></i></a>
+                </div>
+                <div class="card p-3  filter community">
+                    <blockquote class="blockquote mb-0 card-body">
+                        <p>Życie, które zwycięża</p>
+                        <footer class="blockquote-footer">
+                            <small class="text-muted">
+                                Charles G. Trumbull
+                            </small>
+                        </footer>
+                    </blockquote>
+                    <a href="translations/Trumbull%20Charles%20Życie%20które%20zwycięża.pdf" target="_blank"><i
+                            class="fas fa-file-pdf icon text-dark"></i></a>
+                </div>
+                <div class="card p-3  filter power">
+                    <blockquote class="blockquote mb-0 card-body">
+                        <p>20 wskazówek do uwolnienia spod działania mocy ciemności</p>
+                        <footer class="blockquote-footer">
+                            <small class="text-muted">
+                                Kurt Koch
+                            </small>
+                        </footer>
+                    </blockquote>
+                    <a href="translations/KOCH%20OKKULTES%20ABC%2020%20Wskazówek%20do%20uwolnienia.pdf" target="_blank"><i
+                            class="fas fa-file-pdf icon text-dark"></i></a>
+                </div>
+                <div class="card p-3  filter community">
+                    <blockquote class="blockquote mb-0 card-body">
+                        <p>Byłem ślepy a teraz widzę!</p>
+                        <footer class="blockquote-footer">
+                            <small class="text-muted">
+                                Hudson Taylor
+                            </small>
+                        </footer>
+                    </blockquote>
+                    <a href="translations/Hudson_Taylor_List_1869.pdf" target="_blank"><i
+                            class="fas fa-file-pdf icon text-dark"></i></a>
+                </div>
+                <div class="card p-3  filter testimony">
+                    <blockquote class="blockquote mb-0 card-body">
+                        <p>Wołanie z Indonezji</p>
+                        <footer class="blockquote-footer">
+                            <small class="text-muted">
+                                Wykłady: Petrusa Oktavianusa, Detmara Scheunemanna, Volkharda Scheunemanna
+                            </small>
+                        </footer>
+                    </blockquote>
+                    <a href="translations/Hudson_Taylor_List_1869.pdf" target="_blank"><i
+                            class="fas fa-file-pdf icon text-dark"></i></a>
+                </div>
+                <div class="card p-3  filter conditions">
+                    <blockquote class="blockquote mb-0 card-body">
+                        <p>Przebudzenie na Hebrydach</p>
+                        <footer class="blockquote-footer">
+                            <small class="text-muted">
+                                Duncan Campbell
+                            </small>
+                        </footer>
+                    </blockquote>
+                    <a href="translations/Przebudzenie%20na%20Hebrydach%20Duncan%20Campbell.pdf" target="_blank"><i
+                            class="fas fa-file-pdf icon text-dark"></i></a>
                 </div>
             </div>
         </div>
