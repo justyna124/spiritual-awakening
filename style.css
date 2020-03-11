@@ -69,25 +69,33 @@ button.button:active:after {
     transition: .5s ease;
     color: #fff;
 }
-.d-block{
+
+.d-block {
     margin-left: auto;
     margin-right: auto;
 }
 
+button#all, button#all:focus, button#all:active, button#power:focus, button#power:active, button#conditions:focus, button#conditions:active, button#community:focus, button#community:active, button#prayer:focus, button#prayer:active, button#testimony:focus, button#testimony:active {
+
+    outline-color: transparent;
+}
+
 @media (max-width: 991px) {
-    .carousel-item{
+    .carousel-item {
         height: 250px;
     }
-    .carousel-item img{
+
+    .carousel-item img {
         height: 250px;
     }
 }
 
 @media (max-width: 575px) {
-    .carousel-item{
+    .carousel-item {
         height: 180px;
     }
-    .carousel-item img{
+
+    .carousel-item img {
         height: 180px;
     }
 }
