@@ -80,6 +80,15 @@ button#all, button#all:focus, button#all:active, button#power:focus, button#powe
     outline-color: transparent;
 }
 
+.full-text{
+    display: none;
+}
+.less{
+    display: none;
+}
+
+
+
 @media (max-width: 991px) {
     .carousel-item {
         height: 250px;

@@ -32,3 +32,23 @@ var menu = document.getElementById('navbarSupportedContent');
 for (var i = 0; i < liElement.length; i++) {
     liElement[i].addEventListener("click", hideMenu);
 }
+
+var spanMore= document.querySelector('.more');
+var spanLess= document.querySelector('.less');
+var spanFullText= document.querySelector('.full-text')
+console.log(spanLess)
+
+function showText() {
+    spanMore.style.display="none";
+    spanFullText.style.display="inline";
+spanLess.style.display = "inline";
+
+}
+function hideText() {
+    spanMore.style.display="inline";
+    spanFullText.style.display="none";
+    spanLess.style.display = "none";
+
+}
+spanMore.addEventListener('click', showText)
+spanLess.addEventListener('click', hideText)
