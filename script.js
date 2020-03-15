@@ -19,7 +19,7 @@ $(document).ready(function () {
 
 
     $('.carousel').carousel({
-        interval: 15000
+        interval: 4000
     })
 });
 
@@ -36,19 +36,16 @@ for (var i = 0; i < liElement.length; i++) {
 var spanMore= document.querySelector('.more');
 var spanLess= document.querySelector('.less');
 var spanFullText= document.querySelector('.full-text')
-console.log(spanLess)
 
 function showText() {
     spanMore.style.display="none";
     spanFullText.style.display="inline";
 spanLess.style.display = "inline";
-
 }
 function hideText() {
     spanMore.style.display="inline";
     spanFullText.style.display="none";
     spanLess.style.display = "none";
-
 }
 spanMore.addEventListener('click', showText)
 spanLess.addEventListener('click', hideText)
