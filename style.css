@@ -8,16 +8,16 @@
 
 .color {
     color: white;
-    text-shadow: 1px 1px 0 #7283a7;
+    text-shadow: 1px 1px 0 #153264;
 }
 
 .bg {
-    background-image: linear-gradient(to top, #cfd9df 0, #e2ebf0 100%)
+    background-image: linear-gradient(120deg, #5581a7 0, #ebedee 100%);
 }
 
 .bg-gradient {
-    background-image: linear-gradient(120deg, #fdfbfb 0, #ebedee 100%);
-    text-shadow: 1px 1px 0 #7283a7;
+    background-image: linear-gradient(120deg, #5581a7 0, #ebedee 100%);
+    text-shadow: 1px 1px 0 #153264;
 }
 
 .text-color-carousel {
@@ -48,9 +48,9 @@ button.button {
     border-radius: 100rem;
     font-size: .8rem;
     padding: .2rem 2rem;
-    color: #c1cbd1;
+    color: #5481a6;
     border: solid 3px transparent;
-    background-image: linear-gradient(#e2ebf0, #cfd9df), linear-gradient(#e2ebf0, #cfd9df);
+    background-image: linear-gradient(#5581a7, #5481a6), linear-gradient(#5581a7, #5481a6);
     background-origin: border-box;
     background-clip: content-box, border-box;
     box-shadow: 2px 1000px 1px #fff inset;
@@ -80,20 +80,45 @@ button#all, button#all:focus, button#all:active, button#power:focus, button#powe
     outline-color: transparent;
 }
 
-.full-text{
-    display: none;
-}
-.less{
+.full-text {
     display: none;
 }
 
+.less {
+    display: none;
+    cursor: pointer;
+}
 
+.more {
+    cursor: pointer;
+}
+
+.btn-secondary {
+    background-color: #5581a7;
+    border-color: #5581a7;
+}
+
+.btn-secondary:hover {
+    background-color: #fff;
+    color: #5581a7;
+    border: solid 3px #5581a7;
+    transform: scale(1.1);
+}
+
+.btn-secondary:not(:disabled):not(.disabled).active, .btn-secondary:not(:disabled):not(.disabled):active, .show > .btn-secondary.dropdown-toggle {
+    color: #5481a6;
+    background-color: #ffffff;
+    border-color: #5481a6;
+}
+
+.btn-secondary:not(:disabled):not(.disabled).active:focus, .btn-secondary:not(:disabled):not(.disabled):active:focus, .show > .btn-secondary.dropdown-toggle:focus {
+    box-shadow: none;
+}
 
 @media (max-width: 991px) {
     .carousel-item {
         height: 250px;
     }
-
     .carousel-item img {
         height: 250px;
     }
