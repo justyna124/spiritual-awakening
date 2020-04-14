@@ -28,12 +28,21 @@
     color: rgba(68, 68, 68, 0.63);
     text-align: center;
 }
-
+.card.filter{
+    border: 1px solid  #5581a7;
+    box-shadow:         inset 0 0 30px #5581a7;
+}
 .icon {
     font-size: 3rem;
     display: block;
     text-align: center;
     margin: 0 auto;
+}
+.icon:focus{
+    color: #5581a7;
+}
+a{
+    color:  #5581a7;
 }
 
 .carousel-control-next, .carousel-control-prev {
