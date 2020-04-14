@@ -318,46 +318,51 @@
     </article>
     <article class="row pt-5 pb-5" id="links">
         <h6 class="text-uppercase text-center text-muter w-100 bg-gradient color pt-2 pb-2">przydatne linki</h6>
-        <div class="col-md-6 offset-md-5 ">
-            <div class="btn-group dropright mt-5 mb-5">
-                <div class="dropdown">
-                    <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown"
-                            aria-haspopup="true" aria-expanded="false">
-                       Linki, które warto odwiedzić
+        <div class="col-md-10 offset-md-1 mt-5">
+            <div id="accordion">
+                <div class="card">
+                    <div class="card-header" id="headingOne">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Linki, które warto odwiedzić
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                        <div class="card-body">
+                            <a class="dropdown-item"
+                               href="https://www.biblia.info.pl/blog/przebudzenie-przeglad-historyczny-i-teologiczny/ "
+                               target="_blank">Przebudzenie przegląd historyczny i teologiczny</a>
+                            <a class="dropdown-item" href="http://www.literatura.hg.pl/eurotext.htm" target="_blank">E. Schreiner, Obrachunek Boży z ludami Europy, 1913</a>
+                            <a class="dropdown-item" href="http://www.oblubienica.eu/czytelnia/ksiazki/miles-j-stanford/zasady-duchowego-wzrostu/page/1" target="_blank">Miles Stanford, Zasady duchowego wzrostu</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingTwo">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                                Książki, które warto przeczytać
+                            </button>
+                        </h5>
+                    </div>
 
-                    </button>
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        <a class="dropdown-item"
-                           href="https://www.biblia.info.pl/blog/przebudzenie-przeglad-historyczny-i-teologiczny/ "
-                           target="_blank">Przebudzenie przegląd historyczny i teologiczny</a>
-                        <a class="dropdown-item" href="http://www.literatura.hg.pl/eurotext.htm" target="_blank">E. Schreiner, Obrachunek Boży z ludami Europy, 1913</a>
-                        <a class="dropdown-item" href="http://www.oblubienica.eu/czytelnia/ksiazki/miles-j-stanford/zasady-duchowego-wzrostu/page/1" target="_blank">Miles Stanford, Zasady duchowego wzrostu</a>
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                        <div class="card-body">
+                            <a class="dropdown-item">Roy Hession, Droga Golgoty, Fundacja CLC, Katowice, 1993</a>
+                            <a class="dropdown-item">Erlo Stegen, Przebudzenie wśród Zulusów, redaktor Kazimierz Muranty</a>
+                            <a class="dropdown-item">Francois Carr, Przebudzenie. Manifestacja Bożej chwały. Chrześcijańska Misja Pentecoste, Warszawa, 2016</a>
+
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="col-md-6 offset-md-5">
-            <div class="btn-group dropright mt-5 mb-5">
-                <div class="dropdown">
-                    <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown"
-                            aria-haspopup="true" aria-expanded="false">
-                       Książki, które warto przeczytać
-
-                    </button>
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        <a class="dropdown-item">Roy Hession, Droga Golgoty, Fundacja CLC, Katowice, 1993</a>
-                        <a class="dropdown-item">Erlo Stegen, Przebudzenie wśród Zulusów, redaktor Kazimierz Muranty</a>
-                        <a class="dropdown-item">Francois Carr, Przebudzenie. Manifestacja Bożej chwały. Chrześcijańska Misja Pentecoste, Warszawa, 2016</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-
     </article>
 </main>
 <footer id="sticky-footer" class="py-4 bg ">
     <div class="container text-center color">
-        <small>&copy; 2019 Copyright Jarosław Gabała</small>
+        <small>&copy; 2020 Copyright Jarosław Gabała</small>
     </div>
 </footer>
 

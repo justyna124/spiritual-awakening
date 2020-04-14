@@ -76,7 +76,6 @@ button.button:active:after {
 }
 
 button#all, button#all:focus, button#all:active, button#power:focus, button#power:active, button#conditions:focus, button#conditions:active, button#community:focus, button#community:active, button#prayer:focus, button#prayer:active, button#testimony:focus, button#testimony:active {
-
     outline-color: transparent;
 }
 
@@ -115,10 +114,36 @@ button#all, button#all:focus, button#all:active, button#power:focus, button#powe
     box-shadow: none;
 }
 
+.card-header {
+    background-image: linear-gradient(120deg, #5581a7 0, #ebedee 100%);
+}
+
+.btn-link {
+    color: #ffffff;
+}
+
+.btn-link:hover {
+    color: #ffffff;
+}
+
+.dropdown-item {
+    text-align: left;
+    white-space: normal;
+}
+
+.dropdown-item:active {
+    background-color: #f8f9fa;
+}
+
+.dropdown-item:focus {
+    background-color: #f8f9fa;
+}
+
 @media (max-width: 991px) {
     .carousel-item {
         height: 250px;
     }
+
     .carousel-item img {
         height: 250px;
     }
